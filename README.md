@@ -16,12 +16,12 @@ Testing:
 Testing with Postman
 Launch Postman.
 Choose the GET HTTP method from the dropdown.
-Provide the URL: http://localhost:8080/grep.
+Provide the URL: http://localhost:8080/
 Set the parameters:
 Key: directory, Value: /path/to/your/NASA_access_log.
 Key: regex, Value: your_regex_here.
 Key: dateRange, Value: your_date_range_here.
 
-Sample : http://localhost:8080/grep?directory=/resources/NASA_access_log&regex=unicomp[0-9]&dateRange=01/Jun/1990-01/Aug/2000
+Sample : http://localhost:8080/searchLogs?regex=unicomp%5B0-9%5D&directory=resources%2FNASA_access_log&dateRange=01/Jun/1995-01/Aug/1995
 
 
